@@ -4,7 +4,7 @@ module.exports = {
   category: 'Utility',
   description: 'Let everyone know you are AFK!', // Required for slash commands
   slash: true,
-  testOnly: true, 
+  testOnly: false, 
 	 options: [
     {
       name: 'reason',
